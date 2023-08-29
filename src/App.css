@@ -1,0 +1,88 @@
+.App{
+  text-align: center;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+.heading{
+  top:0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  color: white;
+  height: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #333;
+}
+
+.head{
+  margin: 1rem;
+  display: flex;
+}
+
+.container{
+  margin-top : 8rem;
+}
+
+textarea{
+  min-width: 45rem;
+  min-height: 12rem;
+  max-width : 45rem;
+  max-height: 12rem;
+  overflow-y: scroll;
+  text-align: center;
+  border: none;
+  background-color: white;
+  font-family: monospace;
+  box-shadow: 0px 0px 6px .6px;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  padding : 10px;
+}
+
+input :active{
+  border: none;
+}
+
+.buttons{
+  background-color: green;
+  color:white;
+  border: none;
+  height: 2.6rem;
+  width: 6rem;
+  border-radius: 3px;
+  margin : 2rem;
+  cursor: pointer;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+}
+
+.reset{
+  background-color: gray;
+  color:white;
+  border: none;
+  height: 2.6rem;
+  width: 6rem;
+  border-radius: 3px;
+  margin : 1rem;
+  cursor: pointer;
+  font-family:verdana;
+  font-size: 0.9rem;
+}
+
+footer{
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  background-color: #789;
+  color: white;
+  text-align: center;
+}
